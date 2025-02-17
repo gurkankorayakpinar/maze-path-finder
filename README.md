@@ -6,7 +6,7 @@
 
 - Labirentler, rastgele şekilde oluşurlar ve tek yönlü ilerleme vardır.
 
-- Koridorlardaki bir adet mavi kare ve bir adet kırmızı kare de rastgele şekilde ve sadece yol (path) üzerinde oluşurlar.
+- Koridorlardaki bir adet mavi kare ve bir adet kırmızı kare de rastgele şekilde oluşurlar.
 
 - Hem duvarların oluşturulması, hem de iki nokta arasındaki mesafenin çizilmesi için DFS (Depth First Search) algoritması kullanılmıştır.
 
