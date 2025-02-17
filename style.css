@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(165, 165, 165);
+    font-family: Arial, sans-serif;
+}
+
+#maze-container {
+    display: grid;
+    grid-template-columns: repeat(35, 20px);
+    grid-template-rows: repeat(35, 20px);
+    gap: 1px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+#distance {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(165, 165, 165);
+    border: 1px solid #ccc;
+}
+
+.wall {
+    background-color: black;
+}
+
+.cell.start {
+    background-color: blue;
+}
+
+.cell.end {
+    background-color: red;
+}
+
+.cell.path {
+    background-color: green;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
